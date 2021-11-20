@@ -1,0 +1,98 @@
+.cover__overlay {
+  text-decoration: none;
+  position: relative;
+  width: 100%;
+
+  min-width: 768px;
+  background-image: url(./../../../images/Railway_station.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  height: calc(0.625 * 100vw);
+  max-height: 640px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.cover__overlay:hover::before {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+
+    max-width: 1184px;
+    background-image: url(./../../../images/Railway_station.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    /* height: calc(0.625 * 100vw);
+    max-height: 640px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+
+    min-width: 320px;
+    background-image: url(./../../../images/Railway_station.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    height: calc(0.625 * 100vw);
+    max-height: 480px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    /* width: 100%; */
+    text-decoration: none;
+    position: relative;
+
+    min-width: 320px;
+    background-image: url(./../../../images/Railway_station.jpg);
+    /* padding-bottom: 100%; */
+    height: calc(0.625 * 100vw);
+    max-height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

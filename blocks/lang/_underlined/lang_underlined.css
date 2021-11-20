@@ -1,0 +1,18 @@
+.lang_underlined {
+  border-bottom: 1px solid #fff;
+}
+
+@media screen and (min-width: 1280px) {
+}
+
+@media screen and (max-width: 768px) {
+  .lang_underlined {
+    border-bottom: 1px solid #fff;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lang_underlined {
+    border-bottom: 1px solid #fff;
+  }
+}

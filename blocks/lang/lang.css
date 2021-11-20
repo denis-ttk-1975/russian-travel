@@ -1,0 +1,21 @@
+.lang {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 1280px) {
+}
+
+@media screen and (max-width: 768px) {
+  .lang {
+    font-weight: 400;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lang {
+    font-weight: 400;
+    font-size: 18px;
+  }
+}

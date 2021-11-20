@@ -1,0 +1,30 @@
+.langChoice {
+  min-width: 78px;
+  display: flex;
+  justify-content: space-between;
+  height: 28px;
+  align-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+}
+
+@media screen and (max-width: 768px) {
+  .langChoice {
+    min-width: 78px;
+    display: flex;
+    justify-content: space-between;
+    height: 28px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .langChoice {
+    min-width: 78px;
+    display: flex;
+    justify-content: space-between;
+    height: 28px;
+    align-items: center;
+  }
+}
