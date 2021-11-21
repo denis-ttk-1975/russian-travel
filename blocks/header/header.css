@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 28px 48px 48px;
-  width: calc(100vw - 96px);
+  width: calc(100% - 96px);
   max-width: 928px;
 }
 
@@ -21,7 +21,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 28px 24px;
-    width: calc(100vw - 48px);
+    width: calc(100% - 48px);
     max-width: 720px;
   }
 }
@@ -32,7 +32,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px 16px 48px;
-    width: calc(100vw - 32px);
+    width: calc(100% - 32px);
     max-width: 288px;
   }
 }

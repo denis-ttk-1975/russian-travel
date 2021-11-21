@@ -3,6 +3,7 @@
   flex-direction: column;
   max-width: 928px;
   align-items: center;
+  width: calc (100% - 96px);
 }
 
 @media screen and (min-width: 1280px) {
@@ -17,6 +18,7 @@
     flex-direction: column;
     max-width: 768px;
     align-items: center;
+    width: 100%;
   }
 }
 
@@ -26,5 +28,6 @@
     flex-direction: column;
     max-width: 320px;
     align-items: center;
+    width: 100%;
   }
 }
