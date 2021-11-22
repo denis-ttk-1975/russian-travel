@@ -35,5 +35,7 @@
     margin: 8px 0;
     margin-bottom: 5px;
     padding-left: 16px;
+    box-sizing: border-box;
+    width: 100%;
   }
 }
