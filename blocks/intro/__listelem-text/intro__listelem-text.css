@@ -1,4 +1,4 @@
-.list-elem__text {
+.intro__listelem-text {
   font-weight: 700;
   font-size: 12px;
 }
@@ -7,14 +7,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  .list-elem__text {
+  .intro__listelem-text {
     font-weight: 700;
     font-size: 12px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .list-elem__text {
+  .intro__listelem-text {
     font-weight: 700;
     font-size: 12px;
   }
