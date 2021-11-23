@@ -1,9 +1,15 @@
 .lang {
   font-weight: 400;
   font-size: 24px;
+  color: #fff;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1280px) {
+  .lang {
+    font-weight: 400;
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width: 768px) {

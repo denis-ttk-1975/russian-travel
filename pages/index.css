@@ -9,10 +9,10 @@
 
 @import url(./../blocks/logo/logo.css);
 
-@import url(./../blocks/langChoice/langChoice.css);
+@import url(./../blocks/lang-choice/lang-choice.css);
 
 @import url(./../blocks/lang/lang.css);
-@import url(./../blocks/lang/_underlined/lang_underlined.css);
+@import url(./../blocks/lang/_selected/lang_selected.css);
 
 @import url(./../blocks/content/content.css);
 

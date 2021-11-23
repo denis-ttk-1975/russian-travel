@@ -1,4 +1,4 @@
-.langChoice {
+.lang-choice {
   min-width: 78px;
   display: flex;
   justify-content: space-between;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .langChoice {
+  .lang-choice {
     min-width: 78px;
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .langChoice {
+  .lang-choice {
     min-width: 78px;
     display: flex;
     justify-content: space-between;
