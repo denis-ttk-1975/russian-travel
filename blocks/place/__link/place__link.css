@@ -7,30 +7,3 @@
 .place__link:hover {
   opacity: 80%;
 }
-
-@media screen and (min-width: 1280px) {
-  .place__link {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.22;
-    color: #fff;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__link {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.22;
-    color: #fff;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .place__link {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.22;
-    color: #fff;
-  }
-}

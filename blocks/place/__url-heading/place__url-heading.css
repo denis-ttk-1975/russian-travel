@@ -7,29 +7,14 @@
   letter-spacing: 2px;
 }
 
-@media screen and (min-width: 1280px) {
-  .place__url-heading {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.7;
-    color: #aaa;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .place__url-heading {
-    font-weight: 400;
-    font-size: 12px;
     line-height: 1;
-    color: #aaa;
   }
 }
 
 @media screen and (max-width: 450px) {
   .place__url-heading {
-    font-weight: 400;
-    font-size: 12px;
     line-height: 1;
-    color: #aaa;
   }
 }

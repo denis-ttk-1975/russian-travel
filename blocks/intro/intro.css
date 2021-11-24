@@ -1,6 +1,6 @@
 .intro {
-  padding-right: calc(100% - 690px - 0px);
-  padding-left: 0px;
+  padding-right: calc(100% - 690px - 48px);
+  padding-left: 48px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -14,8 +14,8 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    padding-right: calc(100% - 690px - 12px);
-    padding-left: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }
 

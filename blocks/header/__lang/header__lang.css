@@ -3,28 +3,15 @@
   font-size: 24px;
   color: #fff;
   text-decoration: none;
+  line-height: 1.17;
 }
 .lang:hover {
   opacity: 80%;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 350px) {
   .lang {
-    font-weight: 400;
-    font-size: 24px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lang {
-    font-weight: 400;
-    font-size: 24px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lang {
-    font-weight: 400;
     font-size: 18px;
+    line-height: 1.11;
   }
 }

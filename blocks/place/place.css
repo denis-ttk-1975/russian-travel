@@ -8,9 +8,8 @@
 }
 @media screen and (min-width: 1280px) {
   .place {
-    display: grid;
     grid-template-columns: 460px 484px;
-    grid-template-rows: auto auto;
+
     gap: 48px 40px;
     padding-bottom: 92px;
   }
@@ -18,22 +17,18 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    display: grid;
     grid-template-columns: fit-content(340px) fit-content(352px);
-    grid-template-rows: auto auto;
+
     gap: 48px 28px;
     padding-bottom: 90px;
-    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 450px) {
   .place {
-    display: grid;
     grid-template-columns: fit-content(320px);
     grid-template-rows: auto;
     gap: 32px;
     padding-bottom: 90px;
-    max-width: 100%;
   }
 }

@@ -2,20 +2,3 @@
   font-weight: 700;
   font-size: 12px;
 }
-
-@media screen and (min-width: 1280px) {
-}
-
-@media screen and (max-width: 768px) {
-  .intro__listelem-text {
-    font-weight: 700;
-    font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .intro__listelem-text {
-    font-weight: 700;
-    font-size: 12px;
-  }
-}
