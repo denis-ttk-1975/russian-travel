@@ -2,14 +2,20 @@
   display: flex;
   justify-content: space-between;
   width: calc(100% - 48px);
-  padding-top: 92px;
+  padding-top: 102px;
   padding-bottom: 24px;
   max-width: 100%;
 }
 
 @media screen and (min-width: 1280px) {
   .footer {
-    min-width: 928px;
+    max-width: 1184px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    padding-top: 82px;
   }
 }
 
@@ -18,7 +24,7 @@
     flex-direction: column;
 
     min-width: 288px;
-    padding-top: 92px;
+    padding-top: 82px;
     padding-bottom: 24px;
     max-width: 100%;
   }

@@ -3,30 +3,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 28px 48px 48px;
-  width: calc(100% - 96px);
-  max-width: 928px;
+  padding: 28px 48px 20px;
+  width: 100%;
+  max-width: 1024px;
 }
 
 @media screen and (min-width: 1280px) {
   .header {
-    max-width: 1184px;
-    padding: 28px 48px 74px;
+    width: 100%;
+    /* width: 100%; */
+    padding: 28px 48px 44px;
+    max-width: 1280px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    padding: 28px 24px;
-    width: calc(100% - 48px);
-    max-width: 720px;
+    padding: 28px 24px 20px;
+    width: 100%;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 350px) {
   .header {
     padding: 16px 16px 48px;
-    width: calc(100% - 32px);
-    max-width: 288px;
+    width: 100%;
+    max-width: 320px;
   }
 }

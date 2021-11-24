@@ -27,6 +27,7 @@
     grid-template-columns: repeat(2, minmax(152px, 1fr));
 
     gap: 16px;
+    max-width: 720px;
   }
 }
 
@@ -39,7 +40,7 @@
     /* grid-template-columns: repeat(4, 1fr); */
     /* grid-template-rows: 213px; */
     grid-template-rows: auto;
-    gap: 16px 0;
+    gap: 12px 0;
     /* gap: 16px; */
   }
 }
