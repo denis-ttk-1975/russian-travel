@@ -1,16 +1,16 @@
-.lang {
+.header__lang {
   font-weight: 400;
   font-size: 24px;
   color: #fff;
   text-decoration: none;
   line-height: 1.17;
 }
-.lang:hover {
+.header__lang:hover {
   opacity: 80%;
 }
 
 @media screen and (max-width: 350px) {
-  .lang {
+  .header__lang {
     font-size: 18px;
     line-height: 1.11;
   }

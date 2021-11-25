@@ -1,4 +1,4 @@
-.lang-choice {
+.header__lang-choice {
   min-width: 78px;
   display: flex;
   justify-content: space-between;
@@ -7,8 +7,8 @@
 }
 
 @media screen and (max-width: 350px) {
-  .lang-choice {
-    max-width: 62px;
+  .header__lang-choice {
+    min-width: 62px;
     font-size: 18px;
   }
 }

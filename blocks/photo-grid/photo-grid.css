@@ -26,7 +26,6 @@
   .photo-grid {
     grid-template-columns: repeat(2, minmax(152px, 1fr));
 
-    gap: 16px;
     max-width: 720px;
   }
 }
