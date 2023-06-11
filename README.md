@@ -1,8 +1,12 @@
-#Сайт "Путешествие по России"
+# Adaptive landing-page layout - "Travel across Russia"
+# Адаптивная верстка страницы - "Путешествие по России"
 
-###Стрим 3 Яндекс-практикум "Веб-разработчик плюс"
+#### Example internet-page available at https://denis-ttk-1975.github.io/russian-travel/
+#### Работающий сайт размещен на https://denis-ttk-1975.github.io/russian-travel/
 
-Сайт с адаптивной версткой
-Использованы технологии html, css, flex-box и grid
+## Author - Denis Ulesov
+## Автор - Денис Улесов
 
-Страница GitHub-Pages: https://denis-ttk-1975.github.io/russian-travel/
+#### Used tools: HTML, CSS, Flex, Grid
+#### Используемые библиотеки и фреймворки: HTML, CSS, Flex, Grid
+
